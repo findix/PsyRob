@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://www.simsimi.com/talk.htm# -->
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# talkwithsimaimi: http://ogp.me/ns/fb/talkwithsimaimi#">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>心理咨询机器人</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="description" content="Converse with super-advanced chatting robot SimSimi">
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="Cache-Control" content="no-cache; must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+
+	<link rel="shortcut icon" href="http://www.simsimi.com/static/images/mobile/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./Talk with SimSimi_files/sim_v2.css">
+	<script id="facebook-jssdk" src="./Talk with SimSimi_files/all.js"></script>
+	<script type="text/javascript" src="./Talk with SimSimi_files/jquery-1.4.4.min.js"></script>
+	<style type="text/css"></style>
+	<script src="./Talk with SimSimi_files/jquery-ui.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.8.7/themes/smoothness/jquery-ui.css">
+
+	<form name="chatform" id="chatform" onsubmit="return false;" method="post" style="display:inline">
+		<input type="hidden" name="hid-lang" id="hid-lang" value="zh">
+
+		<div id="wrapper-talk">
+			<div id="contents" style="display: block;">
+				<div id="logo-area">
+					<div id="logo-text">
+						<img src="./Talk with SimSimi_files/logo.png" alt="SimSimi logo" title="SimSimi logo"></div>
+					<div id="menus">
+						<ul>
+							<li class="menu talk talk_select">
+								<a href="http://www.simsimi.com/talk.htm" title="Talk">
+									<span class="">Talk</span>
+								</a>
+							</li>
+							<li class="menu teach">
+								<a href="http://www.simsimi.com/teach.htm" title="Teach">
+									<span class="">Teach</span>
+								</a>
+							</li>
+							<li class="menu quotes">
+								<a href="http://www.simsimi.com/quotes.htm" title="Quotes">
+									<span class="">Quotes</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="sns-subscribe" style="position:absolute;top:24px;right:40px;">
+						<!-- 
+				<span>
+						<a href="https://twitter.com/simsimi_en" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @simsimi_en</a>
+					</span>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<span class="fb-like" data-href="http://www.facebook.com/pages/SimSimi/287787774624991" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></span>
+					-->
+					<span id="fb-profile-pic"></span>
+					<fb:login-button autologoutlink="true" scope="publish_actions" width="200" max-rows="1" size="medium" login_text="Connect with Facebook"></fb:login-button>
+				</div>
+			</div>
+			<div id="chat">
+				<div class="bg-top"></div>
+				<div class="bg-bottom"></div>
+				<div id="msgs">
+					<table class="new-templete">
+						<tbody>
+							<tr>
+								<td class="bot">
+									<div class="img-bot"></div>
+									<div class="left-convo">你好</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="chat-bottom">
+					<br />
+					<div id="chat-area">
+						<div id="chatbox">
+							<input type="text" name="userinput" id="userinput" class="userinput" maxlength="100"></div>
+						<div id="chatbtn" style="background-color:red; color: blue;">
+
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+				<!-- <div id="btn-quotes"></div>
+			-->
+		</div>
+		<div id="fb-comment" class="radius">
+			<div style="width:300px;height:250px;"></div>
+			<div class="space"></div>
+			<a href="http://goo.gl/zKA6ps" target="_blank">
+				<img src="./Talk with SimSimi_files/soo_web_talk_right_sim.jpg" style="width:300px" border="0"></a>
+
+		</div>
+		<div id="footer">
+			<div class="left">
+				© SimSimi Inc.
+				<a href="http://www.simsimi.com/about.htm" class="space">About</a>
+				<a href="http://blog.naver.com/simsimi_kr/" class="space " target="_blank">Blog</a>
+				<a href="http://developer.simsimi.com/" class="space" target="_blank">API</a>
+				<a href="http://www.simsimi.com/licenses.htm" class="space" target="_blank">Licenses</a>
+			</div>
+		</div>
+	</div>
+</div>
+</form>
+
+<table class="templete hidden">
+<tbody>
+	<tr>
+		<td class="hu">
+			<div class="img-hu"></div>
+			<div class="right-convo"></div>
+		</td>
+	</tr>
+	<tr>
+		<td class="bot">
+			<div class="img-bot"></div>
+			<div class="left-convo"></div>
+		</td>
+	</tr>
+</tbody>
+</table>
+
+</div>
+</body>
+</html>
